@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Chengdu",
+    "logo": "/images/project-logos/SF_airbnb.png",
+    "duration": "成都",
+    "description": "Famous for its spicy cuisine, particularly Sichuan hotpot, and for being home to the adorable giant pandas. Tourists can visit the Chengdu Panda Base, explore historical sites like Jinli Ancient Street, and enjoy the relaxed vibe of the city’s teahouses and gardens.",
+    "technologies": ["#Pandas", "#Hotpot", "#JinliStreet"]
+  },
+  {
+    "title": "Chongqing",
+    "logo": "/images/project-logos/roosevelt_innovations.png",
+    "duration": "重庆",
+    "description": "Known for its unique mountainous landscape and fiery hotpot. Tourists can take a scenic Yangtze River cruise, explore the historic Ciqikou Ancient Town, and visit the impressive Dazu Rock Carvings, home to ancient Buddhist sculptures. The city’s vibrant culture, combined with its stunning views and spicy cuisine, offers an unforgettable experience for travelers.",
+    "technologies": ["#Hotpot", "#Views", "#Nightscape"]
+  },
+  {
+    "title": "Guangzhou",
+    "logo": "/images/project-logos/gnome.png",
+    "duration": "广州",
+    "description": "Known for its rich history, modern skyline, and vibrant cultural scene. Visitors can explore the iconic Canton Tower, indulge in delicious Cantonese cuisine, and shop in the city’s numerous markets and shopping districts",
+    "technologies": ["#CantonTower", "#CantoneseCuisine"]
+  },
+  {
+    "title": "Shanghai",
+    "logo": "/images/project-logos/steampunk.png",
+    "duration": "上海",
+    "description": "China’s most cosmopolitan city, blending traditional Chinese culture with modernity. Tourists can take in stunning views from the Bund, shop along Nanjing Road, explore ancient Chinese gardens like Yu Garden, and experience the cutting-edge architecture of Lujiazui",
+    "technologies": ["#NanjingRoad", "#DisneyLand", "#YuGarden", "#TheBund"]
+  }
+]
