@@ -26,5 +26,12 @@
     "duration": "上海",
     "description": "China’s most cosmopolitan city, blending traditional Chinese culture with modernity. Tourists can take in stunning views from the Bund, shop along Nanjing Road, explore ancient Chinese gardens like Yu Garden, and experience the cutting-edge architecture of Lujiazui",
     "technologies": ["#NanjingRoad", "#DisneyLand", "#YuGarden", "#TheBund"]
+  },
+  {
+    "title": "Shenyang",
+    "logo": "/images/project-logos/robotics.png",
+    "duration": "沈阳",
+    "description": "It boasts a rich history, including landmarks like the Mukden Palace, which showcases its imperial past. Today, the city blends its traditional heritage with modern industry and urban development. It's a lively cultural hub and the hometown of the most gorgeous girl in the world.",
+    "technologies": ["#MukdenPalace", "#Bathing", "#HeartCatcher"]
   }
 ]
