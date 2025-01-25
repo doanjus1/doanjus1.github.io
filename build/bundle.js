@@ -1041,7 +1041,7 @@ var app = (function () {
     			add_location(i1, file$8, 15, 25, 673);
     			add_location(br4, file$8, 16, 6, 797);
     			add_location(br5, file$8, 17, 6, 810);
-    			attr_dev(a, "href", "https://www.pandeambassy.com");
+    			attr_dev(a, "href", "https://www.pandaembassy.com");
     			attr_dev(a, "target", "_blank");
     			add_location(a, file$8, 18, 111, 928);
     			add_location(u, file$8, 18, 205, 1022);
