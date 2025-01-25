@@ -638,18 +638,18 @@ var app = (function () {
     			attr_dev(a0, "class", "svelte-1sscn0w");
     			add_location(a0, file$b, 9, 10, 183);
     			add_location(li0, file$b, 9, 6, 179);
-    			attr_dev(a1, "href", "#projects");
+    			attr_dev(a1, "href", "#cities");
     			attr_dev(a1, "class", "svelte-1sscn0w");
     			add_location(a1, file$b, 10, 10, 225);
     			add_location(li1, file$b, 10, 6, 221);
     			attr_dev(a2, "href", "#photos");
     			attr_dev(a2, "class", "svelte-1sscn0w");
-    			add_location(a2, file$b, 11, 10, 272);
-    			add_location(li2, file$b, 11, 6, 268);
-    			attr_dev(a3, "href", "#contact");
+    			add_location(a2, file$b, 11, 10, 270);
+    			add_location(li2, file$b, 11, 6, 266);
+    			attr_dev(a3, "href", "#adopt");
     			attr_dev(a3, "class", "svelte-1sscn0w");
-    			add_location(a3, file$b, 12, 10, 316);
-    			add_location(li3, file$b, 12, 6, 312);
+    			add_location(a3, file$b, 12, 10, 314);
+    			add_location(li3, file$b, 12, 6, 310);
     			attr_dev(ul, "class", "svelte-1sscn0w");
     			add_location(ul, file$b, 8, 4, 168);
     			attr_dev(div, "class", "navbar svelte-1sscn0w");
@@ -1941,12 +1941,12 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(p0, "class", "text svelte-hri7yt");
-    			add_location(p0, file$5, 9, 2, 258);
-    			add_location(small, file$5, 10, 5, 346);
-    			add_location(p1, file$5, 10, 2, 343);
-    			attr_dev(div, "id", "projects");
-    			attr_dev(div, "class", "svelte-hri7yt");
+    			attr_dev(p0, "class", "text svelte-40cvkt");
+    			add_location(p0, file$5, 9, 2, 256);
+    			add_location(small, file$5, 10, 5, 344);
+    			add_location(p1, file$5, 10, 2, 341);
+    			attr_dev(div, "id", "cities");
+    			attr_dev(div, "class", "svelte-40cvkt");
     			add_location(div, file$5, 7, 0, 208);
     		},
     		l: function claim(nodes) {
@@ -2141,9 +2141,9 @@ var app = (function () {
     			t = space();
     			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[1].src)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*image*/ ctx[1].alt);
-    			attr_dev(img, "class", "svelte-1gt44ig");
+    			attr_dev(img, "class", "svelte-fnjg3r");
     			add_location(img, file$4, 11, 12, 327);
-    			attr_dev(div, "class", "grid-item svelte-1gt44ig");
+    			attr_dev(div, "class", "grid-item svelte-fnjg3r");
     			add_location(div, file$4, 10, 8, 290);
     		},
     		m: function mount(target, anchor) {
@@ -2199,10 +2199,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "grid-container svelte-1gt44ig");
+    			attr_dev(div0, "class", "grid-container svelte-fnjg3r");
     			add_location(div0, file$4, 8, 4, 219);
-    			attr_dev(div1, "id", "images");
-    			attr_dev(div1, "class", "svelte-1gt44ig");
+    			attr_dev(div1, "id", "photos");
+    			attr_dev(div1, "class", "svelte-fnjg3r");
     			add_location(div1, file$4, 6, 0, 165);
     		},
     		l: function claim(nodes) {
@@ -2789,13 +2789,13 @@ var app = (function () {
     			t3 = space();
     			p1 = element("p");
     			p1.textContent = "Top ↑";
-    			attr_dev(p0, "class", "text svelte-kb69lv");
-    			add_location(p0, file$1, 13, 2, 364);
+    			attr_dev(p0, "class", "text svelte-1a57gid");
+    			add_location(p0, file$1, 13, 2, 362);
     			attr_dev(p1, "id", "scrollToTop");
-    			attr_dev(p1, "class", "svelte-kb69lv");
-    			add_location(p1, file$1, 17, 2, 494);
-    			attr_dev(div, "id", "contact");
-    			attr_dev(div, "class", "svelte-kb69lv");
+    			attr_dev(p1, "class", "svelte-1a57gid");
+    			add_location(p1, file$1, 17, 2, 492);
+    			attr_dev(div, "id", "adopt");
+    			attr_dev(div, "class", "svelte-1a57gid");
     			add_location(div, file$1, 11, 0, 315);
     		},
     		l: function claim(nodes) {
@@ -2907,20 +2907,20 @@ var app = (function () {
     	let t1;
     	let experience;
     	let t2;
-    	let projects;
+    	let cities;
     	let t3;
-    	let miscellaneous;
+    	let photos;
     	let t4;
-    	let contact;
+    	let adopt;
     	let t5;
     	let footer;
     	let current;
     	header = new Header({ $$inline: true });
     	about = new About({ $$inline: true });
     	experience = new Experience({ $$inline: true });
-    	projects = new Projects({ $$inline: true });
-    	miscellaneous = new Miscellaneous({ $$inline: true });
-    	contact = new Contact({ $$inline: true });
+    	cities = new Projects({ $$inline: true });
+    	photos = new Miscellaneous({ $$inline: true });
+    	adopt = new Contact({ $$inline: true });
     	footer = new Footer({ $$inline: true });
 
     	const block = {
@@ -2932,15 +2932,15 @@ var app = (function () {
     			t1 = space();
     			create_component(experience.$$.fragment);
     			t2 = space();
-    			create_component(projects.$$.fragment);
+    			create_component(cities.$$.fragment);
     			t3 = space();
-    			create_component(miscellaneous.$$.fragment);
+    			create_component(photos.$$.fragment);
     			t4 = space();
-    			create_component(contact.$$.fragment);
+    			create_component(adopt.$$.fragment);
     			t5 = space();
     			create_component(footer.$$.fragment);
     			attr_dev(main, "class", "svelte-s1wq04");
-    			add_location(main, file, 10, 0, 403);
+    			add_location(main, file, 10, 0, 392);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2953,11 +2953,11 @@ var app = (function () {
     			append_dev(main, t1);
     			mount_component(experience, main, null);
     			append_dev(main, t2);
-    			mount_component(projects, main, null);
+    			mount_component(cities, main, null);
     			append_dev(main, t3);
-    			mount_component(miscellaneous, main, null);
+    			mount_component(photos, main, null);
     			append_dev(main, t4);
-    			mount_component(contact, main, null);
+    			mount_component(adopt, main, null);
     			append_dev(main, t5);
     			mount_component(footer, main, null);
     			current = true;
@@ -2968,9 +2968,9 @@ var app = (function () {
     			transition_in(header.$$.fragment, local);
     			transition_in(about.$$.fragment, local);
     			transition_in(experience.$$.fragment, local);
-    			transition_in(projects.$$.fragment, local);
-    			transition_in(miscellaneous.$$.fragment, local);
-    			transition_in(contact.$$.fragment, local);
+    			transition_in(cities.$$.fragment, local);
+    			transition_in(photos.$$.fragment, local);
+    			transition_in(adopt.$$.fragment, local);
     			transition_in(footer.$$.fragment, local);
     			current = true;
     		},
@@ -2978,9 +2978,9 @@ var app = (function () {
     			transition_out(header.$$.fragment, local);
     			transition_out(about.$$.fragment, local);
     			transition_out(experience.$$.fragment, local);
-    			transition_out(projects.$$.fragment, local);
-    			transition_out(miscellaneous.$$.fragment, local);
-    			transition_out(contact.$$.fragment, local);
+    			transition_out(cities.$$.fragment, local);
+    			transition_out(photos.$$.fragment, local);
+    			transition_out(adopt.$$.fragment, local);
     			transition_out(footer.$$.fragment, local);
     			current = false;
     		},
@@ -2989,9 +2989,9 @@ var app = (function () {
     			destroy_component(header);
     			destroy_component(about);
     			destroy_component(experience);
-    			destroy_component(projects);
-    			destroy_component(miscellaneous);
-    			destroy_component(contact);
+    			destroy_component(cities);
+    			destroy_component(photos);
+    			destroy_component(adopt);
     			destroy_component(footer);
     		}
     	};
@@ -3021,9 +3021,9 @@ var app = (function () {
     		Footer,
     		About,
     		Experience,
-    		Projects,
-    		Miscellaneous,
-    		Contact
+    		Cities: Projects,
+    		Photos: Miscellaneous,
+    		Adopt: Contact
     	});
 
     	return [];
