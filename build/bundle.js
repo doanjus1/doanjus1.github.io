@@ -743,7 +743,7 @@ var app = (function () {
     		c: function create() {
     			footer = element("footer");
     			div = element("div");
-    			div.textContent = "© Panda Ambassy 2021";
+    			div.textContent = "© Panda Embassy 2021";
     			attr_dev(div, "class", "copyright svelte-kbis4n");
     			add_location(div, file$a, 1, 2, 11);
     			attr_dev(footer, "class", "svelte-kbis4n");
@@ -2068,19 +2068,39 @@ var app = (function () {
     var images = [
     	{
     		src: "./images/misc/dog1.png",
-    		alt: "Road test!"
-    	},
-    	{
-    		src: "./images/misc/dog2.png",
     		alt: "Cute"
     	},
     	{
+    		src: "./images/misc/dog2.png",
+    		alt: "Sleeping"
+    	},
+    	{
     		src: "./images/misc/dog3.png",
-    		alt: "Sneaking out"
+    		alt: "Watching"
     	},
     	{
     		src: "./images/misc/dog4.png",
-    		alt: "Lazy day"
+    		alt: "Celebrate"
+    	},
+    	{
+    		src: "./images/misc/dog5.png",
+    		alt: "Sad"
+    	},
+    	{
+    		src: "./images/misc/dog6.png",
+    		alt: "Lazy"
+    	},
+    	{
+    		src: "./images/misc/dog7.png",
+    		alt: "Tree"
+    	},
+    	{
+    		src: "./images/misc/dog8.png",
+    		alt: "Eating"
+    	},
+    	{
+    		src: "./images/misc/dog9.png",
+    		alt: "Hanging"
     	}
     ];
 
@@ -2107,9 +2127,9 @@ var app = (function () {
     			t = space();
     			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[1].src)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*image*/ ctx[1].alt);
-    			attr_dev(img, "class", "svelte-u9df7s");
+    			attr_dev(img, "class", "svelte-1gt44ig");
     			add_location(img, file$4, 11, 12, 327);
-    			attr_dev(div, "class", "grid-item svelte-u9df7s");
+    			attr_dev(div, "class", "grid-item svelte-1gt44ig");
     			add_location(div, file$4, 10, 8, 290);
     		},
     		m: function mount(target, anchor) {
@@ -2165,10 +2185,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "grid-container svelte-u9df7s");
+    			attr_dev(div0, "class", "grid-container svelte-1gt44ig");
     			add_location(div0, file$4, 8, 4, 219);
     			attr_dev(div1, "id", "images");
-    			attr_dev(div1, "class", "svelte-u9df7s");
+    			attr_dev(div1, "class", "svelte-1gt44ig");
     			add_location(div1, file$4, 6, 0, 165);
     		},
     		l: function claim(nodes) {
@@ -2499,43 +2519,43 @@ var app = (function () {
     			t8 = space();
     			create_component(button.$$.fragment);
     			attr_dev(br0, "class", "svelte-kkngno");
-    			add_location(br0, file$2, 49, 2, 1834);
+    			add_location(br0, file$2, 49, 2, 1833);
     			attr_dev(input0, "class", "text-input svelte-kkngno");
     			attr_dev(input0, "id", "fullname");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "name", "fullname");
     			attr_dev(input0, "placeholder", "Your name");
     			input0.required = true;
-    			add_location(input0, file$2, 50, 2, 1843);
+    			add_location(input0, file$2, 50, 2, 1842);
     			attr_dev(br1, "class", "svelte-kkngno");
-    			add_location(br1, file$2, 59, 2, 2004);
+    			add_location(br1, file$2, 59, 2, 2003);
     			attr_dev(br2, "class", "svelte-kkngno");
-    			add_location(br2, file$2, 61, 2, 2014);
+    			add_location(br2, file$2, 61, 2, 2013);
     			attr_dev(input1, "class", "text-input svelte-kkngno");
     			attr_dev(input1, "id", "email");
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "name", "email");
     			attr_dev(input1, "placeholder", "Your email address");
     			input1.required = true;
-    			add_location(input1, file$2, 62, 2, 2023);
+    			add_location(input1, file$2, 62, 2, 2022);
     			attr_dev(br3, "class", "svelte-kkngno");
-    			add_location(br3, file$2, 71, 2, 2188);
+    			add_location(br3, file$2, 71, 2, 2187);
     			attr_dev(br4, "class", "svelte-kkngno");
-    			add_location(br4, file$2, 73, 2, 2198);
+    			add_location(br4, file$2, 73, 2, 2197);
     			attr_dev(textarea, "class", "text-input svelte-kkngno");
     			attr_dev(textarea, "id", "text-input");
     			attr_dev(textarea, "rows", "7");
     			attr_dev(textarea, "name", "message");
     			attr_dev(textarea, "placeholder", "Your message on why you love pandas");
     			textarea.required = true;
-    			add_location(textarea, file$2, 74, 2, 2207);
+    			add_location(textarea, file$2, 74, 2, 2206);
     			attr_dev(br5, "class", "svelte-kkngno");
-    			add_location(br5, file$2, 83, 2, 2398);
+    			add_location(br5, file$2, 83, 2, 2397);
     			attr_dev(form, "id", "contact-form");
     			attr_dev(form, "action", "https://formspree.io/f/mgvwvqqq");
     			attr_dev(form, "method", "POST");
     			attr_dev(form, "class", "svelte-kkngno");
-    			add_location(form, file$2, 47, 0, 1751);
+    			add_location(form, file$2, 47, 0, 1750);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2653,7 +2673,7 @@ var app = (function () {
     				const confirmationCode = generateConfirmationCode();
 
     				// Display the alert with the confirmation code
-    				alert('Adoption completed! \n\nNote for international adopters: Due to international regulations, your panda will be available for pickup in China.\nUpon arriving, please show any Chinese citizen the following code. \nConfirmation Code: ' + confirmationCode + '\n\nPlease be sure to enjoy your visit and take care of your panda!\n (This is sufficient proof that you have completed the adoption process)');
+    				alert('Adoption completed! \n\nNote for international adopters: Due to international regulations, your panda will be available for pickup in China.\nUpon arriving, please show any Chinese citizen the following code. \nConfirmation Code: ' + confirmationCode + '\n\nPlease be sure to enjoy your visit and take care of your panda!\n(This is sufficient proof that you have completed the adoption process)');
 
     				// Optionally, reset your form fields if you're using a state object like fields
     				$$invalidate(0, fields.name = '', fields);
