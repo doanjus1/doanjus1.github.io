@@ -600,6 +600,9 @@ var app = (function () {
     	let li2;
     	let a2;
     	let t7;
+    	let li3;
+    	let a3;
+    	let t9;
     	let socials;
     	let current;
     	socials = new Socials({ $$inline: true });
@@ -622,8 +625,12 @@ var app = (function () {
     			t5 = space();
     			li2 = element("li");
     			a2 = element("a");
-    			a2.textContent = "Adoption";
+    			a2.textContent = "Photos";
     			t7 = space();
+    			li3 = element("li");
+    			a3 = element("a");
+    			a3.textContent = "Adoption";
+    			t9 = space();
     			create_component(socials.$$.fragment);
     			attr_dev(h2, "class", "svelte-1sscn0w");
     			add_location(h2, file$b, 6, 2, 118);
@@ -635,10 +642,14 @@ var app = (function () {
     			attr_dev(a1, "class", "svelte-1sscn0w");
     			add_location(a1, file$b, 10, 10, 225);
     			add_location(li1, file$b, 10, 6, 221);
-    			attr_dev(a2, "href", "#contact");
+    			attr_dev(a2, "href", "#photos");
     			attr_dev(a2, "class", "svelte-1sscn0w");
     			add_location(a2, file$b, 11, 10, 272);
     			add_location(li2, file$b, 11, 6, 268);
+    			attr_dev(a3, "href", "#contact");
+    			attr_dev(a3, "class", "svelte-1sscn0w");
+    			add_location(a3, file$b, 12, 10, 316);
+    			add_location(li3, file$b, 12, 6, 312);
     			attr_dev(ul, "class", "svelte-1sscn0w");
     			add_location(ul, file$b, 8, 4, 168);
     			attr_dev(div, "class", "navbar svelte-1sscn0w");
@@ -663,7 +674,10 @@ var app = (function () {
     			append_dev(ul, t5);
     			append_dev(ul, li2);
     			append_dev(li2, a2);
-    			append_dev(header, t7);
+    			append_dev(ul, t7);
+    			append_dev(ul, li3);
+    			append_dev(li3, a3);
+    			append_dev(header, t9);
     			mount_component(socials, header, null);
     			current = true;
     		},
@@ -697,7 +711,7 @@ var app = (function () {
     function instance$c($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Header', slots, []);
-    	let headingText = 'Panda Ambassy';
+    	let headingText = 'Panda Embassy';
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -990,7 +1004,7 @@ var app = (function () {
     			p = element("p");
     			t1 = text("Welcome visitors! At ");
     			i0 = element("i");
-    			i0.textContent = "Panda Ambassy";
+    			i0.textContent = "Panda Embassy";
     			t3 = text(", we are dedicated to the conservation and protection of pandas and their natural habitats. Our mission is to ensure a future where pandas thrive in the wild, free from threats of habitat loss and extinction.\n      ");
     			br0 = element("br");
     			t4 = space();
@@ -1010,7 +1024,7 @@ var app = (function () {
     			small = element("small");
     			t12 = text("*Adopting a panda is a requirement to visit China. By following the instructions on this website, ");
     			a = element("a");
-    			a.textContent = "pandaambassy.com";
+    			a.textContent = "pandaembassy.com";
     			t14 = text(", you will receive ");
     			u = element("u");
     			u.textContent = "full and approved";
@@ -1027,7 +1041,7 @@ var app = (function () {
     			add_location(i1, file$8, 15, 25, 673);
     			add_location(br4, file$8, 16, 6, 797);
     			add_location(br5, file$8, 17, 6, 810);
-    			attr_dev(a, "href", "https://www.pandaambassy.com");
+    			attr_dev(a, "href", "https://www.pandeambassy.com");
     			attr_dev(a, "target", "_blank");
     			add_location(a, file$8, 18, 111, 928);
     			add_location(u, file$8, 18, 205, 1022);
